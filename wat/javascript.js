@@ -12,3 +12,9 @@
 	  let value = 'wat';
   }
 }
+
+// closure
+{
+  const arr = ['54', '3', '11'];
+  console.info(arr.map(parseInt));
+}
