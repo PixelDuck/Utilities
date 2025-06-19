@@ -53,3 +53,10 @@ Retrieve an history of a squashed branched
 git reflog
 git br <NAME> <COMMIT_ID>
 ```
+
+Create a new branch from master, add another branch full of commits but keep only the result in one commit
+```
+git checkout -b work master
+git merge --squash my_branch_with_loooooot_of_commits
+git commit -m "my message"
+```
